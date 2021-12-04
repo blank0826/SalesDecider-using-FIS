@@ -1,0 +1,66 @@
+[System]
+Name='ASSN5'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=20
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Groceries_Item'
+Range=[0 10]
+NumMFs=3
+MF1='low':'trapmf',[-3.727 -0.3923 0.4411 3.775]
+MF2='average':'trapmf',[1.899 3.933 6.067 8.101]
+MF3='high':'trapmf',[6.249 9.583 10.42 13.76]
+
+[Input2]
+Name='Electronics_Item'
+Range=[0 10]
+NumMFs=3
+MF1='low':'trapmf',[-3.67 -0.3367 0.4966 3.83]
+MF2='average':'trapmf',[1.226 4.559 5.392 8.726]
+MF3='high':'trimf',[5.833 10 14.17]
+
+[Input3]
+Name='Daily_Customers'
+Range=[0 10]
+NumMFs=3
+MF1='low':'gauss2mf',[1.132 -0.75 1.132 0.75]
+MF2='medium':'gauss2mf',[1.132 4.25 1.132 5.75]
+MF3='high':'gauss2mf',[1.132 9.25 1.131 10.75]
+
+[Output1]
+Name='Sales'
+Range=[0 10]
+NumMFs=3
+MF1='bad':'gauss2mf',[1.132 -0.75 1.132 0.75]
+MF2='average':'gauss2mf',[1.416 4.583 1.416 5.417]
+MF3='good':'gauss2mf',[1.416 9.583 1.416 10.42]
+
+[Rules]
+1 1 1, 1 (1) : 1
+1 1 2, 1 (1) : 1
+1 1 3, 1 (1) : 1
+1 2 1, 1 (1) : 1
+1 2 2, 2 (1) : 1
+1 2 3, 2 (1) : 1
+1 3 1, 1 (1) : 1
+1 3 2, 2 (1) : 1
+1 3 3, 3 (1) : 1
+2 1 1, 1 (1) : 1
+2 1 2, 2 (1) : 1
+2 1 3, 2 (1) : 1
+2 2 1, 2 (1) : 1
+2 2 2, 2 (1) : 1
+2 2 2, 2 (1) : 1
+2 2 3, 2 (1) : 1
+3 3 3, 3 (1) : 1
+3 3 1, 3 (1) : 1
+3 2 3, 3 (1) : 1
+3 1 2, 2 (1) : 1
