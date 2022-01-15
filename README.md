@@ -3,7 +3,10 @@
 This system uses various categories and define on how the the sales of the store will be effected. This has been created using **MATLAB FUZZY LOGIC TOOLBOX**.
 
 ## Objective
-1. We take in the data of the store containing the categories Daily Customer, Electronics, Groceries, Competitors in the vicinity and Sales for the store.
+1. We take in the data of the store containing the categories Daily Customer, Electronics, Groceries, Competitors in the vicinity and Sales for the store which we had to correlate with other categories.
+2. From the four categories, we chose 3 categories depending on the relation of them with the Sales (calculated using excel correlation formula).
+3. Took those 3 variables and created them in fuzzy logic toolbox managed membership functions and created rules from the dropdown using it.
+4. Open the Rules View and change input how everything will effect the sales for the store.
 
 # Local Setup
 
