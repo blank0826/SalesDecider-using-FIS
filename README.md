@@ -40,3 +40,5 @@ This system uses various categories and define on how the the sales of the store
 
 # Contact
 ## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
+## [Arinjay Srivastava](mailto:as353@snu.edu.in?subject=GitHub)
+## [Prabhat Kumar Singh Gaur](mailto:ps827@snu.edu.in?subject=GitHub)
