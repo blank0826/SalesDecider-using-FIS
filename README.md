@@ -8,6 +8,8 @@ This system uses various categories and define on how the the sales of the store
 3. Took those 3 variables and created them in fuzzy logic toolbox managed membership functions and created rules from the dropdown using it.
 4. Open the Rules View and change input how everything will effect the sales for the store.
 
+<ins>For complete documentation:</ins> [Documentation.docx](https://github.com/blank0826/SalesDecider-using-FIS/blob/master/Documentation.docx)<br/>
+<ins>For dataset:</ins> [Dataset.xlsx](https://github.com/blank0826/SalesDecider-using-FIS/blob/master/Dataset.xlsx)
 # Local Setup
 
 ## Pre-Requisites
