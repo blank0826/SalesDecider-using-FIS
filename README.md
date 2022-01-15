@@ -39,6 +39,4 @@ This system uses various categories and define on how the the sales of the store
 <img src="https://user-images.githubusercontent.com/33955028/149609996-14e3b53f-ca82-46eb-90c6-8b9009d47a53.png" width="700" height="550">
 
 # Contact
-## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
-## [Arinjay Srivastava](mailto:as353@snu.edu.in?subject=GitHub)
-## [Prabhat Kumar Singh Gaur](mailto:ps827@snu.edu.in?subject=GitHub)
+## [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)<br/><br/>[Arinjay Srivastava](mailto:as353@snu.edu.in?subject=GitHub)<br/><br/>[Prabhat Kumar Singh Gaur](mailto:ps827@snu.edu.in?subject=GitHub)
